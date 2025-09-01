@@ -63,3 +63,18 @@ body {
 .panel.active p {
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .panel {
+    height: 20vh;
+    margin: 5px 0;
+  }
+  .panel.active {
+    height: 60vh;
+  }
+}
+
